@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'yekan';
+    src: url('../fonts/Yekan.eot?#')format('eot'), url('../fonts/Yekan.ttf')format('truetype'), url('../fonts/Yekan.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.box{
+    display: flex;
+    justify-self: center;
+    margin: auto;
+    width: 250px;
+    height: 500px;
+    background-color: black;
+}
+
+.screen{
+    width: 240px;
+    height: 493px;
+    background-color: white;
+    border-radius: 23px;
+    margin: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.userBtn{
+    width: 40px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.optionBtn{
+    width: 40px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: white;
+    margin-left: 28px;
+}
+
+.userIcon{
+    width: 40px;
+    height: 40px;
+}
+
+.optionIcon{
+    width: 40px;
+    height: 40px;
+}
+
+.title{
+    margin-top: 25px;
+    direction: ltr;
+    text-align: left;
+    margin-left: 13px;
+}
+
+.text{
+    font-size: 22px;
+    font-family: yekan;
+    font-weight: bold;
+    color: #244c8a;
+}
+
+.searchBox{
+    direction: ltr;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.search{
+    padding: 5px;
+    font-size: 15px;
+    float: left;
+    width: 72%;
+    background: #e4e4e4;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 17px;
+    outline: none;
+}
+
+.submitBtn{
+    float: left;
+    width: 13%;
+    height: 32px;
+    padding: 10px;
+    background: #12558b;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.searchIcon{
+    width: 25px;
+    height: 25px;
+}
+
+.categoryBox{
+    direction: ltr;
+    text-align: left;
+    margin-left: 19px;
+    margin-top: 64px;
+}
+
+.categoryTxt{
+    font-family: 'yekan';
+    font-size: 18px;
+    font-weight: bold;
+    color: #244c8a;
+}
+
+.categoryIcons{
+    display: flex;
+    justify-content: space-around;    
+    direction: ltr;
+}
+
+.icons{
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+}
+
+.iconBtn{
+    direction: ltr;
+    margin-top: 10px;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+}
+
+.maldiveImg{
+    width: 85px;
+    height: 120px;
+    margin: auto;
+    display: block;
+    margin-top: 11px;
+    border-radius: 10px;
+}
+
+.plus{
+    display: block;
+    margin: auto;
+    background-color: #0a2675;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.bottomNavBar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8px;
+    direction: ltr;
+}
+
+.bottomNavBar a{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navIcons{
+    width: 30px;
+    height: 30px;
+}
